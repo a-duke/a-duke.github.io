@@ -1,5 +1,8 @@
-Here you can say lots of fun things about your site.
+Hello!
 
-Maybe say a some things about yourself.
+Welcome to my blog about relational algebra, an honors contract enhancement for Databases.
 
-Or maybe what you plan to blog about.
+This blog serves as a creative and visual representation of the different operations.
+
+Thanks, I hope you enjoy!
+-Alex
