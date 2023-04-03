@@ -1,5 +1,5 @@
 <b>
-  ADMIN MESSAGE:<br></br>
+  ADMIN MESSAGE:<br>
 </b>
 Hello!
 
@@ -8,5 +8,5 @@ Welcome to my blog about relational algebra, an honors contract enhancement for 
 This blog serves as a creative and visual representation of the different operations.
 
 Thanks, I hope you enjoy!
--Alex<br></br>
+-Alex<br>
 <b>---</b>
