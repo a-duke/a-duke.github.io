@@ -1,3 +1,6 @@
+<b>
+  ADMIN MESSAGE:</br></br>
+</b>
 Hello!
 
 Welcome to my blog about relational algebra, an honors contract enhancement for Databases.
@@ -5,4 +8,5 @@ Welcome to my blog about relational algebra, an honors contract enhancement for 
 This blog serves as a creative and visual representation of the different operations.
 
 Thanks, I hope you enjoy!
--Alex
+-Alex</br>
+<b>---</b>
