@@ -4,7 +4,7 @@
 ## What is the selection operation?
 The selection operational in relational algebra is a unary operator that selects (for lack of better terms) attributes from a relation that meets specified criteria. 
 
-It is a pretty straightforward operation, but to put it in readable English: selection is essentially an operation that picks certain rows within a database.
+It is a pretty straightvforward operation, but to put it in readable English: selection is essentially an operation that picks certain rows within a database.
 Still confused? Look at the animation below to see what I’m talking about:
 [ANIMATION RENDER]
 
@@ -22,6 +22,7 @@ So... if we wanted to apply this format to a real-life example, we could!
 
 ---
 ## When is Selection useful?
+Selections are particularly useful when you need to simply filter entries in a database by a condition. Typically with selections, you will want to return the whole row (or tuple) from the table.
 
 ---
 ## So, what does this look like applied?
@@ -37,4 +38,4 @@ SELECT *
 ---
 ## I’m still confused, do you have resources that might help me understand?
 Sure, I do! Here are some of the resources that I used in research for this blog or that helped me during my time taking the course:
-
+GeeksForGeeks Article [https://www.geeksforgeeks.org/select-operation-in-relational-algebra/]
