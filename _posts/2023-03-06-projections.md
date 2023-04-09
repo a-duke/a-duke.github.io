@@ -23,11 +23,17 @@ What would this look like applied to a real table? Let's see!
 
 ---
 ## When is Projection useful?
-
+Projection can be useful in many different scenarios. One use-case for this operation is when you need to limit the amount of data shown (or need to see only specific data). For example, if I wanted to only select the age and majors of every student at Ohio Northern but hide the rest of the student information, I would be able to use the projection operation to do so successfully!
 
 ---
 ## So, what does this look like applied?
+Projection is available in pretty much any Data Management System, including SQL. As shown in the example below (and described above), the SQL statement is selecting only the age and majors of Ohio Northern students from the ONU database table.
 
+```sql
+SELECT age a, major m 
+  FROM ONU
+ ;
+```
 
 ---
 ## I’m still confused, do you have resources that might help me understand?
