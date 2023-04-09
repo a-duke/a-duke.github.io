@@ -25,6 +25,8 @@ What would this look like applied to a real table? Let's see!
 ## When is Projection useful?
 Projection can be useful in many different scenarios. One use-case for this operation is when you need to limit the amount of data shown (or need to see only specific data). For example, if I wanted to only select the age and majors of every student at Ohio Northern but hide the rest of the student information, I would be able to use the projection operation to do so successfully!
 
+Additionally, we can also leverage something called Extended Projection to make the result contain arbitrary expressions involving attriutes; such as arithmetic functions and duplicate occurences. I like to think of it as a mix between selections and projections (although it's not necessarily the correct idea, but you can use functions within the projection to achieve different results).
+
 ---
 ## So, what does this look like applied?
 Projection is available in pretty much any Data Management System, including SQL. As shown in the example below (and described above), the SQL statement is selecting only the age and majors of Ohio Northern students from the ONU database table.
@@ -38,4 +40,6 @@ SELECT age a, major m
 ---
 ## I’m still confused, do you have resources that might help me understand?
 Sure, I do! Here are some of the resources that I used in research for this blog or that helped me during my time taking the course:
-- 
+- Wikipedia (Article) [https://en.wikipedia.org/wiki/Projection_(relational_algebra)]
+- TutorialsPoint (Article) [https://www.tutorialspoint.com/explain-project-operation-in-relational-algebra-dbms]
+- Swati Chawla (Video) [https://youtu.be/VBzU0n-8DeE]
