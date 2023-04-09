@@ -38,4 +38,7 @@ SELECT *
 ---
 ## I’m still confused, do you have resources that might help me understand?
 Sure, I do! Here are some of the resources that I used in research for this blog or that helped me during my time taking the course:
-GeeksForGeeks Article [https://www.geeksforgeeks.org/select-operation-in-relational-algebra/]
+- GeeksForGeeks (Article) [https://www.geeksforgeeks.org/select-operation-in-relational-algebra/]
+- Guru99 (Article) [https://www.guru99.com/relational-algebra-dbms.html]
+- Neso Academy (Video) [https://youtu.be/Givp56x6vbg]
+- TutorialsPoint (Article) [https://www.tutorialspoint.com/explain-the-select-operation-in-relational-algebra-dbms]
