@@ -24,6 +24,8 @@ What would this look like applied to a real table? Let's see!
 Another example of this could look like: П(A, C)(R) = {(a, c) | ∃b, d (a, b, c, d) ∈ R}.
 - If you're anything like me, that probably looks like another language! I promise it's not that bad and is simply explaining that is is selecting ONLY columns A and C from the relation ABCD and then will project only those two.
 
+[ANIMATION RENDER 2?]
+
 ---
 ## When is Projection useful?
 Projection can be useful in many different scenarios. One use-case for this operation is when you need to limit the amount of data shown (or need to see only specific data). For example, if I wanted to only select the age and majors of every student at Ohio Northern but hide the rest of the student information, I would be able to use the projection operation to do so successfully!
