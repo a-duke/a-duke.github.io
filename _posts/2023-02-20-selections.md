@@ -24,6 +24,8 @@ So... if we wanted to apply this format to a real-life example, we could!
 Another example of this can be seen through relational algebra and fancy symbols: σ(A > 5)(R) = {(a, b, c, d) | (a, b, c, d) ∈ R ∧ a > 5}
 - I'm sure that looks complex, but don't freak out. This is simply saying to look at a relation containing ABCD and only take tuples where A is greater than 5. From there, everything else would be excluded and ignored for the operation.
 
+[ANIMATION RENDER 2]
+
 ---
 ## When is Selection useful?
 Selections are particularly useful when you need to simply filter entries in a database by a condition. Typically with selections, you will want to return the whole row (or tuple) from the table. However, in general, selection can be used to filter data, focus on specific subsets of a noted relation, and make queries more efficient- which can make it a very powerful tool to know.
