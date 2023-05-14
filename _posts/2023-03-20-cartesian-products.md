@@ -29,6 +29,8 @@ Cartesian Products can be useful in a variety of situations, but should be used 
 ## So, what does this look like applied?
 Cartesian products are performed by selecting multiple tables within one operation. So, the example below will select all of the information from the database for student's personal information and their financial information.
 
+This expression uses `\$` to display a dollar sign: $\sqrt{\$4}$
+
 ```sql
 SELECT *
   FROM StudentPersonalInfo spi, StudentFinancialInfo sfi
