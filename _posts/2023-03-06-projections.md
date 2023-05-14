@@ -11,17 +11,18 @@ In other words, this operation selects an entire column and projects it with spe
 ---
 ## How is Projection represented in relational algebra?
 Projection is often denoted with the Greek letter pi (П). An example operation can be found below:
--  Пc(R)
+-  ![project_1](https://alexduke.net/project_1_1.png"
   - where П is the projection operation
   - c is the column(s) being selected
     - Yes, you can select multiple columns from one operation!
   - R is the relation/the name of the table
 
 What would this look like applied to a real table? Let's see!
-- Пₛₜᵤₙᵤₘ, ₘₐⱼₒᵣ, ᵤₚₘ(ONU)
+- ![project_1](https://alexduke.net/project_1_2.png"
   - This would project the column stuNum, major, and upm from the ONU table. This scenario would then only show ONU student numbers, majors, and upperclassman status.
 
-Another example of this could look like: П(A, C)(R) = {(a, c) | ∃b, d (a, b, c, d) ∈ R}.
+Another example of this could look like:
+![project_1](https://alexduke.net/project_1_3.png"
 - If you're anything like me, that probably looks like another language! I promise it's not that bad and is simply explaining that is is selecting ONLY columns A and C from the relation ABCD and then will project only those two.
 
 [ANIMATION RENDER 2?]
