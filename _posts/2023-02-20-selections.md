@@ -23,7 +23,8 @@ So... if we wanted to apply this format to a real-life example, we could!
 
 ![selection_2](https://alexduke.net/selection_2.gif)
 
-Another example of this can be seen through relational algebra and fancy symbols: σ(A > 5)(R) = {(a, b, c, d) | (a, b, c, d) ∈ R ∧ a > 5}
+Another example of this can be seen through relational algebra and fancy symbols:
+![selection_3](https://alexduke.net/selection_1_3.gif)
 - I'm sure that looks complex, but don't freak out. This is simply saying to look at a relation containing ABCD and only take tuples where A is greater than 5. From there, everything else would be excluded and ignored for the operation.
 
 ---
