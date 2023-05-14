@@ -7,7 +7,7 @@ The selection operational in relational algebra is a unary operator that selects
 It is a pretty straightvforward operation, but to put it in readable English: selection is essentially an operation that picks certain rows within a database.
 Still confused? Look at the animation below to see what I’m talking about:
 
-![selection_1](selection_1.gif){:data-gifffer="selection_1.gif"}
+![selection_1](https://i.imgur.com/A1PuNcP.gif)
 
 ---
 ## How is Selection represented in relational algebra?
