@@ -6,7 +6,7 @@ The projection opertion in relational algebra is a unary operator that selects a
 
 In other words, this operation selects an entire column and projects it with specific attributes only and without duplicates. Still confused? Look at the animation below to see what I'm talking about:
 
-[ANIMATION RENDER]
+![project_1](https://alexduke.net/project_1.gif)
 
 ---
 ## How is Projection represented in relational algebra?
@@ -21,11 +21,11 @@ What would this look like applied to a real table? Let's see!
 - ![project_1](https://alexduke.net/project_1_2.png)
   - This would project the column stuNum, major, and upm from the ONU table. This scenario would then only show ONU student numbers, majors, and upperclassman status.
 
+![project_2](https://alexduke.net/project_2.gif)
+
 Another example of this could look like:
 ![project_1](https://alexduke.net/project_1_3.png)
 - If you're anything like me, that probably looks like another language! I promise it's not that bad and is simply explaining that is is selecting ONLY columns A and C from the relation ABCD and then will project only those two.
-
-[ANIMATION RENDER 2?]
 
 ---
 ## When is Projection useful?
