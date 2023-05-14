@@ -12,7 +12,7 @@ Still confused? Look at the animation below to see what I’m talking about:
 ---
 ## How is Selection represented in relational algebra?
 Selection is often denoted with the Greek letter sigma (𝜎). Here’s an example of selection being written in relational algebra:
-- ![selection_1](https://alexduke.net/selection_1_1.gif)
+- ![selection_1](https://alexduke.net/selection_1_1.png)
   - where 𝜎 is obviously the predicate (or the operation)
   - l is the logic being performed
   - R is the relation/the name of the table.
