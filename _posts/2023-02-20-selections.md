@@ -6,9 +6,7 @@ The selection operational in relational algebra is a unary operator that selects
 
 It is a pretty straightvforward operation, but to put it in readable English: selection is essentially an operation that picks certain rows within a database.
 Still confused? Look at the animation below to see what I’m talking about:
-
 ![selection_1](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2NkMmUzOWIwMWI4ODJlMzVmYTMwZWE5ZjA3ZWU2MDdkM2JlZjVkNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/qgSycr2SxBtUh5iPOh/giphy.gif)
-
 ---
 ## How is Selection represented in relational algebra?
 Selection is often denoted with the Greek letter sigma (𝜎). Here’s an example of selection being written in relational algebra:
