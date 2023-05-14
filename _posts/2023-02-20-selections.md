@@ -4,10 +4,10 @@
 ## What is the selection operation?
 The selection operational in relational algebra is a unary operator that selects (for lack of better terms) attributes from a relation that meets specified criteria. 
 
-It is a pretty straightvforward operation, but to put it in readable English: selection is essentially an operation that picks certain rows within a database.
+It is a pretty straight forward operation, but to put it in readable English: selection is essentially an operation that picks certain rows within a database.
 Still confused? Look at the animation below to see what I’m talking about:
 
-![selection_1](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2NkMmUzOWIwMWI4ODJlMzVmYTMwZWE5ZjA3ZWU2MDdkM2JlZjVkNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/qgSycr2SxBtUh5iPOh/giphy.gif)
+![selection_1](https://alexduke.net/selection_1.gif)
 
 ---
 ## How is Selection represented in relational algebra?
@@ -21,7 +21,7 @@ So... if we wanted to apply this format to a real-life example, we could!
 - 𝜎ₛₜᵤₙᵤₘ₌₀₁₂₃₄₅₆₇₈₉(ONU)
   - This operation would select all of the rows within the ONU table that have the stuNum (student number) equal to 0123456789.
 
-![selection_2](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmEyMjRhMmQ4MjAyODY5ZDMyOWYwNzFlMGQ3ZjgyMzU4MTI1YzI0YyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/xIhUfy4bHDVPuBYNZD/giphy.gif)
+![selection_2](https://alexduke.net/selection_2)
 
 Another example of this can be seen through relational algebra and fancy symbols: σ(A > 5)(R) = {(a, b, c, d) | (a, b, c, d) ∈ R ∧ a > 5}
 - I'm sure that looks complex, but don't freak out. This is simply saying to look at a relation containing ABCD and only take tuples where A is greater than 5. From there, everything else would be excluded and ignored for the operation.
