@@ -18,7 +18,7 @@ Selection is often denoted with the Greek letter sigma (𝜎). Here’s an examp
   - R is the relation/the name of the table.
 
 So... if we wanted to apply this format to a real-life example, we could!
-- 𝜎ₛₜᵤₙᵤₘ₌₀₁₂₃₄₅₆₇₈₉(ONU)
+- ![selection_2](https://alexduke.net/selection_1_2.png)
   - This operation would select all of the rows within the ONU table that have the stuNum (student number) equal to 0123456789.
 
 ![selection_2](https://alexduke.net/selection_2.gif)
