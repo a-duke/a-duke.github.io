@@ -48,3 +48,4 @@ Sure, I do! Here are some of the resources that I used in research for this blog
 - Guru99 (Article) [https://www.guru99.com/relational-algebra-dbms.html]
 - Neso Academy (Video) [https://youtu.be/Givp56x6vbg]
 - TutorialsPoint (Article) [https://www.tutorialspoint.com/explain-the-select-operation-in-relational-algebra-dbms]
+
