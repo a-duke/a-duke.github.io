@@ -27,9 +27,11 @@ What would this look like applied to a real table? Let's see!
 ## When is a Cartesian Product useful?
 Cartesian Products can be useful in a variety of situations, but should be used carefully. Used on larger databases, this gets significantly more expensive as the size and complexity of a database increases. The best use of this operation is in conjunction with other operations, such as selections- as it is rarely useful alone. For example, this could useful when multiple tables are needing referenced or leveraged in one way or another.
 
+Although the examples in this blog don't indicate it, cartesian products can be used on multiple tables (more than two) at once. Using multiple tables as you may expect, is increasingly more expensive for every table you add. This can be especially useful for creating test data, lookup/cross-reference tables, or generating every possible combination for a data entry. 
+
 ---
 ## So, what does this look like applied?
-Cartesian products are performed by selecting multiple tables within one operation. So, the example below will select all of the information from the database for student's personal information and their financial information.
+Cartesian products are performed by selecting multiple tables within one operation. A good way to think about it is combining two tables into one 'mega' table that contains data from both sets. So, the example below will select all of the information from the database for student's personal information and their financial information.
 
 
 ```sql
