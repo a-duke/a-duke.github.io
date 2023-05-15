@@ -6,7 +6,7 @@ The cartesian product operation is a binary set operation, meaning it involves m
 
 What this means is, the operation will combine two tuples (relations) together and place them side-by-side into one, combned tuple. Still confused? See the animation below to see what I'm talking about:
 
-[ANIMATION RENDER]
+![cart-prod_1](https://alexduke.net/cart-prod_1.gif)
 
 ---
 ## How is Cartesian Products represented in relational algebra?
@@ -19,7 +19,7 @@ Cartesian Products are often denoted with the Greek letter chi (✕). An example
 What would this look like applied to a real table? Let's see!
 - StudentPersonalInfo ✕ StudentFinancialInfo
   - This would combine student's personal information with their financial information.
-  - It is important to note, that the DBMS (database management system) will NOT automatically sync the tables with the appropriate data, meaning that every student's information may not perfectly align with the correct data. To accomplish this, it is essentially to use the select operator to define matching parameters.
+  - It is important to note, that the DBMS (database management system) will NOT automatically sync the tables with the appropriate data, meaning that every student's information may not perfectly align with the correct data. To accomplish this, it is may be necessary to use the select operator to define matching parameters.
 
 ![cart-prod_2](https://alexduke.net/cart-prod_2.gif)
 
