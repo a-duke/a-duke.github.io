@@ -14,12 +14,14 @@ Cartesian Products are often denoted with the Greek letter chi (✕). An example
 -  R1✕R2
   - where R1 is the first relation/tuple
   - ✕ is the cartesian product operation
-  - R2 s the second relation/tuple
+  - R2 is the second relation/tuple
 
 What would this look like applied to a real table? Let's see!
 - StudentPersonalInfo ✕ StudentFinancialInfo
   - This would combine student's personal information with their financial information.
   - It is important to note, that the DBMS (database management system) will NOT automatically sync the tables with the appropriate data, meaning that every student's information may not perfectly align with the correct data. To accomplish this, it is essentially to use the select operator to define matching parameters.
+
+![cart-prod_2](https://alexduke.net/cart-prod_2.gif)
 
 ---
 ## When is a Cartesian Product useful?
