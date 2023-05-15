@@ -2,7 +2,7 @@
 
 ---
 ## What is the Cartesian Product operation?
-The cartesian product operation is a binary set operation, meaning it involves multiple relations. When the operation is applied, it will combine tuples together based on their entry row. This is also sometimes called a cross join.
+The cartesian product operation is a binary set operation, meaning it involves multiple relations. When the operation is applied, it will combine tuples together based on their entry row. This is also sometimes known as a cross join.
 
 What this means is, the operation will combine two tuples (relations) together and place them side-by-side into one, combned tuple. Still confused? See the animation below to see what I'm talking about:
 
