@@ -1,7 +1,3 @@
-\usepackage{amsmath}
-
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
 ### Cartesian Products
 
 ---
@@ -33,7 +29,6 @@ Cartesian Products can be useful in a variety of situations, but should be used 
 ## So, what does this look like applied?
 Cartesian products are performed by selecting multiple tables within one operation. So, the example below will select all of the information from the database for student's personal information and their financial information.
 
-This expression uses `\$` to display a dollar sign: $\sqrt{\$4}$
 
 ```sql
 SELECT *
